@@ -1,0 +1,23 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bradford and Kelejian(1997)]{Bradford1997}
+Gerald Bradford and Harry~H. Kelejian.
+\newblock Estimation of dynamic rural sector income distributions with
+  endogenous farm numbers: An application to the north central region.
+\newblock \emph{American Journal of Agricultural Economics}, 79\penalty0
+  (3):\penalty0 908--919, 1997.
+\newblock TODO: verify DOI and page range.
+
+\bibitem[Hardaker et~al.(2015)Hardaker, Lien, Anderson, and
+  Huirne]{hardaker2015}
+J.~Brian Hardaker, Gudbrand Lien, Jock~R. Anderson, and Ruud B.~M. Huirne.
+\newblock \emph{Coping with Risk in Agriculture: Applied Decision Analysis}.
+\newblock CABI, 3 edition, 2015.
+\newblock TODO: verify edition and publisher metadata before submission.
+
+\end{thebibliography}

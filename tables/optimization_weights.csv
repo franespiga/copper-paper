@@ -1,0 +1,13 @@
+objective,crop,weight,expected_return,status
+expected_profit,barley,5.349790421620532e-29,2511.7681949814914,optimal
+expected_profit,oats,5.352390427045455e-29,2511.7681949814914,optimal
+expected_profit,oilseed_rape,0.3433333333333333,2511.7681949814914,optimal
+expected_profit,peas_field_beans,5.349944496016083e-29,2511.7681949814914,optimal
+expected_profit,potatoes,0.3433333333333333,2511.7681949814914,optimal
+expected_profit,wheat,0.3133333333333334,2511.7681949814914,optimal
+mean_variance,barley,0.3381535687157707,380.83408188754345,optimal
+mean_variance,oats,0.31374953424809837,380.83408188754345,optimal
+mean_variance,oilseed_rape,1.259091275936881e-24,380.83408188754345,optimal
+mean_variance,peas_field_beans,0.3433333333333333,380.83408188754345,optimal
+mean_variance,potatoes,0.004763563702797657,380.83408188754345,optimal
+mean_variance,wheat,0.0,380.83408188754345,optimal

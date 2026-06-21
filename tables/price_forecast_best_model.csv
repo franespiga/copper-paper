@@ -1,0 +1,7 @@
+crop,best_model,best_mae,naive_mae,beats_naive
+barley,naive_last,4.14335722600064,4.14335722600064,False
+oats,naive_last,4.901767719659975,4.901767719659975,False
+oilseed_rape,naive_last,12.183861904021928,12.183861904021928,False
+peas_field_beans,naive_last,6.952517458909192,6.952517458909192,False
+potatoes,naive_last,4.2438805476642525,4.2438805476642525,False
+wheat,naive_last,3.7864896895458493,3.7864896895458493,False

@@ -1,0 +1,115 @@
+generated_at_utc: '2026-06-21T13:11:08.655179+00:00'
+git_commit: d289d8ef96ec000329823d96ad4e234d3d25d31d
+experiments:
+- id: crop_universe_pareto
+  name: crop_universe_pareto
+  description: Pareto crop-universe selection for Paper 1
+  script: scripts/build_dataset.py
+  outputs_expected: 3
+  outputs_found: 3
+  complete: true
+  config_files:
+  - configs/crops.yaml
+  - configs/assumptions.yaml
+  - configs/data_sources.yaml
+  outputs:
+  - outputs/tables/crop_universe_pareto.csv
+  - outputs/figures/publication/crop_universe_pareto.pdf
+  - outputs/reports/crop_universe_selection.md
+- id: profit_panel_m2
+  name: profit_m2
+  description: "County \xD7 crop \xD7 season profit dataset for Paper 1"
+  script: scripts/build_dataset.py
+  outputs_expected: 3
+  outputs_found: 3
+  complete: true
+  config_files:
+  - configs/assumptions.yaml
+  - configs/spatial.yaml
+  - configs/data_sources.yaml
+  outputs:
+  - data/processed/profit_county_crop_season.parquet
+  - outputs/tables/profit_summary_by_crop.csv
+  - outputs/reports/profit_dataset.md
+- id: historical_backtest_m3
+  name: historical_backtest
+  description: "Walk-forward historical backtest across benchmarks B1\u2013B6"
+  script: scripts/run_backtest.py
+  outputs_expected: 3
+  outputs_found: 3
+  complete: true
+  config_files:
+  - configs/benchmarks.yaml
+  - configs/scenarios.yaml
+  outputs:
+  - outputs/tables/backtest_summary.csv
+  - outputs/reports/historical_backtest.md
+  - experiments/runs/historical_backtest/season_profits.parquet
+- id: bootstrap_m3
+  name: bootstrap_scenarios
+  description: Dependence-preserving Monte Carlo bootstrap of profit panel
+  script: scripts/run_scenarios.py
+  outputs_expected: 2
+  outputs_found: 2
+  complete: true
+  config_files:
+  - configs/scenarios.yaml
+  outputs:
+  - outputs/tables/bootstrap_simulation_summary.csv
+  - outputs/reports/bootstrap_scenarios.md
+- id: optimization_m4
+  name: optimization_inference
+  description: Portfolio optimization, welfare sharing, hypothesis tests
+  script: scripts/run_optimization.py
+  outputs_expected: 4
+  outputs_found: 4
+  complete: true
+  config_files:
+  - configs/optimization.yaml
+  - configs/assumptions.yaml
+  - configs/benchmarks.yaml
+  outputs:
+  - outputs/tables/efficient_frontier.csv
+  - outputs/tables/hypothesis_test_summary.csv
+  - outputs/tables/welfare_sharing_comparison.csv
+  - outputs/reports/optimization_inference.md
+- id: robustness_m5
+  name: robustness_forecasting
+  description: "Price forecast evaluation and charter \xA716 robustness checks"
+  script: scripts/run_robustness.py
+  outputs_expected: 4
+  outputs_found: 4
+  complete: true
+  config_files:
+  - configs/robustness.yaml
+  - configs/forecasting.yaml
+  - configs/scenarios.yaml
+  outputs:
+  - outputs/tables/price_forecast_metrics.csv
+  - outputs/tables/robustness_summary.csv
+  - outputs/reports/robustness_forecasting.md
+  - outputs/figures/publication/robustness_heatmap.pdf
+- id: publication_m5
+  name: publication_exports
+  description: Figure and table export to paper/ directory
+  script: scripts/make_figures.py
+  outputs_expected: 2
+  outputs_found: 2
+  complete: true
+  config_files: []
+  outputs:
+  - paper/figures/backtest_comparison.pdf
+  - paper/tables/backtest_summary.csv
+- id: reproducibility_m6
+  name: reproducibility_report
+  description: Final reproducibility report and experiment registry
+  script: scripts/generate_reproducibility_report.py
+  outputs_expected: 3
+  outputs_found: 3
+  complete: true
+  config_files:
+  - configs/experiments.yaml
+  outputs:
+  - outputs/reports/reproducibility_report.md
+  - outputs/reports/experiment_output_audit.csv
+  - experiments/experiment_registry.yaml

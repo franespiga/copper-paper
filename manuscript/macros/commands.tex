@@ -1,0 +1,52 @@
+% Shared CoPPer manuscript macros
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{url}
+
+\newcommand{\copper}{CoPPer}
+\newcommand{\coppercontrib}{%
+  We extend agricultural portfolio analysis to cooperative seasonal allocation,
+  spatial diversification, and member welfare under uncertainty.%
+}
+
+% Missing-result placeholder (flagged by make paper-check)
+\newcommand{\coppertodo}[1]{%
+  \par\noindent\textcolor{red}{\textbf{[TODO: #1]}}\par
+}
+
+% Input a synced LaTeX table fragment from paper/tables/{stem}.tex
+\newcommand{\copperinputtable}[3][htbp]{%
+  \begin{table}[#1]
+    \centering
+    \small
+    \resizebox{\linewidth}{!}{%
+      \input{../tables/#2.tex}%
+    }%
+    \caption{#3}
+    \label{tab:#2}
+  \end{table}
+}
+
+% Include a synced figure from paper/figures/
+\newcommand{\copperinputfigure}[4][width=\linewidth]{%
+  \begin{figure}[htbp]
+    \centering
+    \IfFileExists{../figures/#2.pdf}{%
+      \includegraphics[#1]{../figures/#2.pdf}%
+    }{%
+      \IfFileExists{../figures/#2.png}{%
+        \includegraphics[#1]{../figures/#2.png}%
+      }{%
+        \coppertodo{Missing figure \texttt{#2} (#3)}%
+      }%
+    }%
+    \caption{#3}
+    \label{fig:#4}
+  \end{figure}
+}

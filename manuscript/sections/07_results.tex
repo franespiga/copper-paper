@@ -1,0 +1,43 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Benchmark comparison}
+
+Figure~\ref{fig:backtest_comparison} and Table~\ref{tab:backtest_summary} summarize
+historical backtest performance across benchmarks B1--B6, including mean profit, volatility,
+CVaR, probability of loss, and worst 5\% outcomes.
+
+\copperinputfigure{backtest_comparison}{Historical backtest comparison across benchmarks}{backtest_comparison}
+\copperinputtable{backtest_summary}{Historical backtest summary across benchmarks}
+\copperinputtable{cvar_downside_risk}{CVaR and downside-risk metrics by benchmark}
+
+\subsection{Cooperative scale}
+
+Figure~\ref{fig:cooperative_scale_comparison} compares local, regional, and national
+cooperative benchmarks.
+
+\copperinputfigure{cooperative_scale_comparison}{Cooperative scale comparison (local, regional, national)}{cooperative_scale_comparison}
+
+\subsection{Efficient frontier and weights}
+
+\copperinputfigure{efficient_frontier}{Efficient frontier of portfolio objectives}{efficient_frontier}
+\copperinputtable{efficient_frontier}{Mean-variance efficient frontier solutions}
+\copperinputtable{optimization_weights}{Cooperative portfolio weights by objective}
+
+\subsection{Bootstrap simulation}
+
+Bootstrap scenario summaries are exported to supplementary CSV tables in
+\texttt{paper/tables/bootstrap\_simulation\_summary.csv}.
+
+\subsection{Welfare and sharing rules}
+
+Table~\ref{tab:welfare_sharing_comparison} reports Gini coefficients, dispersion, and
+profit summaries by sharing rule.
+
+\copperinputtable{welfare_sharing_comparison}{Welfare comparison across sharing rules}
+\copperinputtable{gini_coefficient_summary}{Gini coefficients by sharing rule}
+\copperinputtable[p]{member_welfare_change}{Member-level welfare changes by sharing rule}
+
+\subsection{Hypothesis tests}
+
+\copperinputtable{hypothesis_test_summary}{Hypothesis test summary for cooperative benchmarks}

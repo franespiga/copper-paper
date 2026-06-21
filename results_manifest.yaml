@@ -1,0 +1,215 @@
+tables:
+  crop_universe_pareto:
+    expected_source: outputs/tables/crop_universe_pareto.tex
+    paper_destination: paper/tables/crop_universe_pareto.tex
+    required_for:
+    - data
+    - crop_universe
+    status: synced
+  crop_universe_pareto_summary:
+    expected_source: outputs/tables/crop_universe_pareto_summary.tex
+    paper_destination: paper/tables/crop_universe_pareto_summary.tex
+    required_for:
+    - data
+    - crop_universe
+    status: synced
+  profit_summary_by_crop:
+    expected_source: outputs/tables/profit_summary_by_crop.tex
+    paper_destination: paper/tables/profit_summary_by_crop.tex
+    required_for:
+    - data
+    - descriptive
+    status: synced
+  profit_summary_by_county:
+    expected_source: outputs/tables/profit_summary_by_county.csv
+    paper_destination: paper/tables/profit_summary_by_county.csv
+    required_for:
+    - data
+    - descriptive
+    status: synced
+  backtest_summary:
+    expected_source: outputs/tables/backtest_summary.tex
+    paper_destination: paper/tables/backtest_summary.tex
+    required_for:
+    - results
+    - benchmarks
+    status: synced
+  bootstrap_simulation_summary:
+    expected_source: outputs/tables/bootstrap_simulation_summary.csv
+    paper_destination: paper/tables/bootstrap_simulation_summary.csv
+    required_for:
+    - results
+    - simulation
+    status: synced
+  efficient_frontier:
+    expected_source: outputs/tables/efficient_frontier.tex
+    paper_destination: paper/tables/efficient_frontier.tex
+    required_for:
+    - results
+    - optimization
+    status: synced
+  optimization_weights:
+    expected_source: outputs/tables/optimization_weights.tex
+    paper_destination: paper/tables/optimization_weights.tex
+    required_for:
+    - results
+    - optimization
+    status: synced
+  welfare_sharing_comparison:
+    expected_source: outputs/tables/welfare_sharing_comparison.tex
+    paper_destination: paper/tables/welfare_sharing_comparison.tex
+    required_for:
+    - results
+    - welfare
+    status: synced
+  hypothesis_test_summary:
+    expected_source: outputs/tables/hypothesis_test_summary.tex
+    paper_destination: paper/tables/hypothesis_test_summary.tex
+    required_for:
+    - results
+    - inference
+    status: synced
+  robustness_summary:
+    expected_source: outputs/tables/robustness_summary.tex
+    paper_destination: paper/tables/robustness_summary.tex
+    required_for:
+    - robustness
+    status: synced
+  price_forecast_metrics:
+    expected_source: outputs/tables/price_forecast_metrics.tex
+    paper_destination: paper/tables/price_forecast_metrics.tex
+    required_for:
+    - appendix
+    - forecasting
+    status: synced
+  price_forecast_best_model:
+    expected_source: outputs/tables/price_forecast_best_model.tex
+    paper_destination: paper/tables/price_forecast_best_model.tex
+    required_for:
+    - appendix
+    - forecasting
+    status: synced
+  price_summary_by_crop:
+    expected_source: outputs/tables/price_summary_by_crop.tex
+    paper_destination: paper/tables/price_summary_by_crop.tex
+    required_for:
+    - data
+    - descriptive
+    status: synced
+  cost_summary_by_crop:
+    expected_source: outputs/tables/cost_summary_by_crop.tex
+    paper_destination: paper/tables/cost_summary_by_crop.tex
+    required_for:
+    - data
+    - descriptive
+    status: synced
+  correlation_matrix_profits:
+    expected_source: outputs/tables/correlation_matrix_profits.tex
+    paper_destination: paper/tables/correlation_matrix_profits.tex
+    required_for:
+    - methods
+    - optimization
+    status: synced
+  gini_coefficient_summary:
+    expected_source: outputs/tables/gini_coefficient_summary.tex
+    paper_destination: paper/tables/gini_coefficient_summary.tex
+    required_for:
+    - results
+    - welfare
+    status: synced
+  member_welfare_change:
+    expected_source: outputs/tables/member_welfare_change.tex
+    paper_destination: paper/tables/member_welfare_change.tex
+    required_for:
+    - results
+    - welfare
+    status: synced
+  cvar_downside_risk:
+    expected_source: outputs/tables/cvar_downside_risk.tex
+    paper_destination: paper/tables/cvar_downside_risk.tex
+    required_for:
+    - results
+    - risk
+    status: synced
+figures:
+  crop_universe_pareto:
+    expected_source: outputs/figures/publication/crop_universe_pareto.pdf
+    paper_destination: paper/figures/crop_universe_pareto.pdf
+    required_for:
+    - data
+    - crop_universe
+    status: synced
+  crop_area_trends:
+    expected_source: outputs/figures/publication/crop_area_trends.pdf
+    paper_destination: paper/figures/crop_area_trends.pdf
+    required_for:
+    - data
+    - crop_universe
+    status: synced
+  efficient_frontier:
+    expected_source: outputs/figures/publication/efficient_frontier.pdf
+    paper_destination: paper/figures/efficient_frontier.pdf
+    required_for:
+    - results
+    - optimization
+    status: synced
+  backtest_comparison:
+    expected_source: outputs/figures/publication/backtest_comparison.pdf
+    paper_destination: paper/figures/backtest_comparison.pdf
+    required_for:
+    - results
+    - benchmarks
+    status: synced
+  cooperative_scale_comparison:
+    expected_source: outputs/figures/publication/cooperative_scale_comparison.pdf
+    paper_destination: paper/figures/cooperative_scale_comparison.pdf
+    required_for:
+    - results
+    - benchmarks
+    status: synced
+  robustness_heatmap:
+    expected_source: outputs/figures/publication/robustness_heatmap.pdf
+    paper_destination: paper/figures/robustness_heatmap.pdf
+    required_for:
+    - robustness
+    status: synced
+  price_forecast_accuracy:
+    expected_source: outputs/figures/publication/price_forecast_accuracy.pdf
+    paper_destination: paper/figures/price_forecast_accuracy.pdf
+    required_for:
+    - appendix
+    - forecasting
+    status: synced
+  correlation_matrix_profits:
+    expected_source: outputs/figures/publication/correlation_matrix_profits.pdf
+    paper_destination: paper/figures/correlation_matrix_profits.pdf
+    required_for:
+    - methods
+    - optimization
+    status: synced
+reports:
+  crop_universe_selection:
+    expected_source: outputs/reports/crop_universe_selection.md
+    paper_destination: paper/supplementary/crop_universe_selection.md
+    required_for:
+    - data
+    - crop_universe
+    status: synced
+  data_provenance:
+    expected_source: outputs/reports/data_provenance.md
+    paper_destination: paper/supplementary/data_provenance.md
+    required_for:
+    - reproducibility
+    status: synced
+  reproducibility_report:
+    expected_source: outputs/reports/reproducibility_report.md
+    paper_destination: paper/supplementary/reproducibility_report.md
+    required_for:
+    - reproducibility
+    status: synced
+  experiment_registry:
+    expected_source: experiments/experiment_registry.yaml
+    paper_destination: paper/supplementary/experiment_registry.yaml
+    required_for:
+    - reproducibility
+    status: synced

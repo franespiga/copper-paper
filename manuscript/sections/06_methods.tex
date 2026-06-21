@@ -1,0 +1,34 @@
+\section{Methods}
+\label{sec:methods}
+
+\subsection{Scenario generation}
+
+We evaluate strategies under:
+\begin{enumerate}
+  \item historical backtests on observed seasons;
+  \item dependence-preserving Monte Carlo bootstrap resampling of the profit panel; and
+  \item price-scenario robustness (observed, rolling average, adverse shock, oversupply penalties).
+\end{enumerate}
+Oversupply penalties are robustness scenarios, not identified structural price effects.
+
+\subsection{Portfolio optimization}
+
+Mean--variance and CVaR objectives are solved with documented constraints (long-only weights,
+maximum crop share caps, feasible crop--region sets).
+Covariance matrices are estimated with sample, shrinkage, and robust estimators; sensitivity
+is reported in robustness tables.
+
+\copperinputfigure{correlation_matrix_profits}{County × crop profit correlation heatmap (top assets by variance)}{correlation_matrix_profits}
+\copperinputtable{correlation_matrix_profits}{National crop-level profit correlation matrix}
+
+\subsection{Inference}
+
+Hypothesis tests compare cooperative and independent benchmarks with paired tests,
+bootstrap confidence intervals, and effect sizes where configured.
+Random seeds and package versions are fixed in configuration files.
+
+\subsection{Forecasting (auxiliary)}
+
+Walk-forward price forecast evaluation (naive, rolling mean, seasonal naive, gradient boosting)
+supports appendix discussion only and does not enter main cooperative allocation results unless
+forecasts beat naive baselines.

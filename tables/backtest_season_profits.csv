@@ -1,0 +1,109 @@
+benchmark_id,benchmark_name,season,portfolio_profit_gbp_per_ha
+B1_observed,Observed historical allocation,2007,854.7816849496652
+B1_observed,Observed historical allocation,2008,841.1286409604461
+B1_observed,Observed historical allocation,2009,846.2459976275554
+B1_observed,Observed historical allocation,2010,817.9132484318973
+B1_observed,Observed historical allocation,2011,812.0667027580353
+B1_observed,Observed historical allocation,2012,809.8467442234958
+B1_observed,Observed historical allocation,2013,802.2452745697854
+B1_observed,Observed historical allocation,2014,814.0559135220503
+B1_observed,Observed historical allocation,2015,796.1318938903567
+B1_observed,Observed historical allocation,2016,760.6453659323338
+B1_observed,Observed historical allocation,2017,726.5566591666743
+B1_observed,Observed historical allocation,2018,764.5555426224131
+B1_observed,Observed historical allocation,2019,754.544467895721
+B1_observed,Observed historical allocation,2020,736.4296497872504
+B1_observed,Observed historical allocation,2021,702.3329182404289
+B1_observed,Observed historical allocation,2022,706.9797694817789
+B1_observed,Observed historical allocation,2023,707.4192794164543
+B1_observed,Observed historical allocation,2024,681.8939509848494
+B2_profit_maximizer,Profit-maximizing independent farmer,2007,6113.421895942488
+B2_profit_maximizer,Profit-maximizing independent farmer,2008,5910.628105313206
+B2_profit_maximizer,Profit-maximizing independent farmer,2009,6137.531239127914
+B2_profit_maximizer,Profit-maximizing independent farmer,2010,5795.923671606894
+B2_profit_maximizer,Profit-maximizing independent farmer,2011,5763.104161147903
+B2_profit_maximizer,Profit-maximizing independent farmer,2012,5810.174407710532
+B2_profit_maximizer,Profit-maximizing independent farmer,2013,5818.646932128599
+B2_profit_maximizer,Profit-maximizing independent farmer,2014,5736.31184228509
+B2_profit_maximizer,Profit-maximizing independent farmer,2015,6022.44968
+B2_profit_maximizer,Profit-maximizing independent farmer,2016,5710.637268292682
+B2_profit_maximizer,Profit-maximizing independent farmer,2017,5941.40842137826
+B2_profit_maximizer,Profit-maximizing independent farmer,2018,5446.073412882656
+B2_profit_maximizer,Profit-maximizing independent farmer,2019,5701.490621036421
+B2_profit_maximizer,Profit-maximizing independent farmer,2020,5754.78961169053
+B2_profit_maximizer,Profit-maximizing independent farmer,2021,5336.275495099307
+B2_profit_maximizer,Profit-maximizing independent farmer,2022,5551.29123201817
+B2_profit_maximizer,Profit-maximizing independent farmer,2023,5332.457912015759
+B2_profit_maximizer,Profit-maximizing independent farmer,2024,5362.281223476659
+B3_individual_diversified,Diversified independent farmer,2007,2603.7212663986024
+B3_individual_diversified,Diversified independent farmer,2008,2548.2072084208303
+B3_individual_diversified,Diversified independent farmer,2009,2620.0933971806667
+B3_individual_diversified,Diversified independent farmer,2010,2485.6095687043535
+B3_individual_diversified,Diversified independent farmer,2011,2460.8778918322296
+B3_individual_diversified,Diversified independent farmer,2012,2458.927178309043
+B3_individual_diversified,Diversified independent farmer,2013,2469.214708680629
+B3_individual_diversified,Diversified independent farmer,2014,2449.479430037355
+B3_individual_diversified,Diversified independent farmer,2015,2532.8674825
+B3_individual_diversified,Diversified independent farmer,2016,2421.164879945799
+B3_individual_diversified,Diversified independent farmer,2017,2452.3485058802376
+B3_individual_diversified,Diversified independent farmer,2018,2309.2214231177963
+B3_individual_diversified,Diversified independent farmer,2019,2383.599803456746
+B3_individual_diversified,Diversified independent farmer,2020,2422.695781529274
+B3_individual_diversified,Diversified independent farmer,2021,2238.089809146043
+B3_individual_diversified,Diversified independent farmer,2022,2336.7106713216117
+B3_individual_diversified,Diversified independent farmer,2023,2229.215399978113
+B3_individual_diversified,Diversified independent farmer,2024,2228.3272433074435
+B4_local_cooperative,Local cooperative,2007,2603.7212663986024
+B4_local_cooperative,Local cooperative,2008,2548.2072084208294
+B4_local_cooperative,Local cooperative,2009,2620.093397180666
+B4_local_cooperative,Local cooperative,2010,2485.609568704353
+B4_local_cooperative,Local cooperative,2011,2460.8778918322287
+B4_local_cooperative,Local cooperative,2012,2458.927178309043
+B4_local_cooperative,Local cooperative,2013,2469.214708680628
+B4_local_cooperative,Local cooperative,2014,2449.479430037355
+B4_local_cooperative,Local cooperative,2015,2532.8674824999994
+B4_local_cooperative,Local cooperative,2016,2421.164879945799
+B4_local_cooperative,Local cooperative,2017,2452.348505880237
+B4_local_cooperative,Local cooperative,2018,2309.221423117796
+B4_local_cooperative,Local cooperative,2019,2383.5998034567456
+B4_local_cooperative,Local cooperative,2020,2422.695781529275
+B4_local_cooperative,Local cooperative,2021,2238.0898091460426
+B4_local_cooperative,Local cooperative,2022,2336.7106713216117
+B4_local_cooperative,Local cooperative,2023,2229.2153999781135
+B4_local_cooperative,Local cooperative,2024,2228.327243307443
+B5_regional_cooperative,Regional cooperative,2007,2603.7212663986024
+B5_regional_cooperative,Regional cooperative,2008,2548.2072084208303
+B5_regional_cooperative,Regional cooperative,2009,2620.0933971806667
+B5_regional_cooperative,Regional cooperative,2010,2485.609568704353
+B5_regional_cooperative,Regional cooperative,2011,2460.877891832229
+B5_regional_cooperative,Regional cooperative,2012,2458.927178309043
+B5_regional_cooperative,Regional cooperative,2013,2469.214708680628
+B5_regional_cooperative,Regional cooperative,2014,2449.479430037355
+B5_regional_cooperative,Regional cooperative,2015,2532.8674824999994
+B5_regional_cooperative,Regional cooperative,2016,2421.1648799457985
+B5_regional_cooperative,Regional cooperative,2017,2452.3485058802376
+B5_regional_cooperative,Regional cooperative,2018,2309.2214231177963
+B5_regional_cooperative,Regional cooperative,2019,2383.599803456745
+B5_regional_cooperative,Regional cooperative,2020,2422.6957815292744
+B5_regional_cooperative,Regional cooperative,2021,2238.089809146043
+B5_regional_cooperative,Regional cooperative,2022,2336.7106713216112
+B5_regional_cooperative,Regional cooperative,2023,2229.2153999781135
+B5_regional_cooperative,Regional cooperative,2024,2228.3272433074435
+B6_national_cooperative,National cooperative benchmark,2007,2603.7212663986024
+B6_national_cooperative,National cooperative benchmark,2008,2548.2072084208303
+B6_national_cooperative,National cooperative benchmark,2009,2620.0933971806667
+B6_national_cooperative,National cooperative benchmark,2010,2485.6095687043535
+B6_national_cooperative,National cooperative benchmark,2011,2460.8778918322296
+B6_national_cooperative,National cooperative benchmark,2012,2458.927178309043
+B6_national_cooperative,National cooperative benchmark,2013,2469.214708680629
+B6_national_cooperative,National cooperative benchmark,2014,2449.479430037355
+B6_national_cooperative,National cooperative benchmark,2015,2532.8674825
+B6_national_cooperative,National cooperative benchmark,2016,2421.164879945799
+B6_national_cooperative,National cooperative benchmark,2017,2452.3485058802376
+B6_national_cooperative,National cooperative benchmark,2018,2309.2214231177963
+B6_national_cooperative,National cooperative benchmark,2019,2383.599803456746
+B6_national_cooperative,National cooperative benchmark,2020,2422.695781529274
+B6_national_cooperative,National cooperative benchmark,2021,2238.089809146043
+B6_national_cooperative,National cooperative benchmark,2022,2336.7106713216117
+B6_national_cooperative,National cooperative benchmark,2023,2229.215399978113
+B6_national_cooperative,National cooperative benchmark,2024,2228.3272433074435

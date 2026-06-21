@@ -1,0 +1,4 @@
+window_years,year_start,year_end,core_crop_coverage,coverage_threshold,meets_threshold,top_crop,n_crops_ranked
+20,2005,2024,0.8217451453819805,0.8,True,wheat,10
+10,2015,2024,0.8212433236126763,0.8,True,wheat,10
+5,2020,2024,0.8217900667580529,0.8,True,wheat,10

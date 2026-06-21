@@ -1,0 +1,12 @@
+\section{Algorithmic details}
+\label{app:algorithms}
+
+Portfolio problems use \texttt{scipy} and \texttt{cvxpy} solvers with logged failures.
+CVaR optimization follows a Rockafellar--Uryasev formulation; failures on small samples are
+logged and non-fatal.
+
+Bootstrap resampling defaults to dependence-preserving draws that retain cross-crop and
+cross-county correlation within sampled years.
+
+Experiment IDs, configuration paths, and output locations are listed in
+\texttt{experiments/experiment\_registry.yaml} (synced to supplementary materials).
